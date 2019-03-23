@@ -72,22 +72,20 @@ linear classifier and has been used effectively for long-term
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
-
-From the heatmap, we can see that ....
-
-
 The performance of the classification is represented in the following 
 table
 
-precision    recall  f1-score   support
+ precision    recall  f1-score   support
 
-       0       0.94      0.97      0.96        67
-       1       0.98      0.97      0.97       121
+           0       0.94      0.97      0.96        67
 
+           1       0.98      0.97      0.97       121
 
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+   micro avg       0.97      0.97      0.97       188
+
+   macro avg       0.96      0.97      0.97       188 
+
+weighted avg       0.97      0.97      0.97       188
 
 ### Discussion
 
