@@ -58,7 +58,7 @@ Two other lists: target_names and features_name which are lists of strings.
 
 First, we explore data by counting values of each class:
 
-![matrix](./figures/count_plot.png)
+![Classes counts](./figures/count_plot.png)
 
 To have the first insight on the correlation among features, we used 
 seaborn and matplotlib libraries, designed for Python language, to 
