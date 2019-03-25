@@ -88,17 +88,14 @@ linear classifier and has been used effectively for long-term
 
 ### Results
 
-The performance of the classification is represented in the following 
-table
+The performance of the classification is reported as 
+        Precision: 0.980
+        Recall: 0.973
+        F1: 0.976
+This indicates that our model can predict with the accuracy arount 98%.
+We furthermore plot the Receiver operating characteristic (ROC)
 
-| class | Precision | Recall | f1_score |
-|:-------|:---------------|:------------|
-|Van Quang Nguyen | March 25, 2019|
 
-| | precision | recall | f1-score | support |
-|:|:----------|:-------|:---------|:--------|
-| 0 | 0.94 | 0.97 | 0.96 | 67 |
-| 1 | 0.98 | 0.97 | 0.97 | 121|
 
 ### Discussion
 
