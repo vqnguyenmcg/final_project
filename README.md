@@ -16,7 +16,7 @@ This repository includes the following:
 - Dockerfile for your experiment: Dockerfile
 - runtime-instructions in a file named RUNME.md
 
-- Data: in this folder, we provide a test data in the form of a csv file.
+- Data folder (includes test.csv): in this folder, we provide a test data in the form of a csv file.
 
 -----
 
@@ -97,7 +97,8 @@ The performance of the classification is reported as follow:
         Recall: 0.973
 
         F1: 0.976
-This indicates that our model can predict with the accuracy arount 98%.
+
+This indicates that our model can predict with the accuracy around 98%.
 We furthermore plot the Receiver operating characteristic (ROC)
 
 ![ROC](./figures/ROC.png)
