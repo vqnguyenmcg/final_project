@@ -16,6 +16,8 @@ This repository includes the following:
 - Dockerfile for your experiment: Dockerfile
 - runtime-instructions in a file named RUNME.md
 
+- Data: in this folder, we provide a test data in the form of a csv file.
+
 -----
 
 ## Research Question
