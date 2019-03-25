@@ -88,14 +88,20 @@ linear classifier and has been used effectively for long-term
 
 ### Results
 
-The performance of the classification is reported as 
+The performance of the classification is reported as follow:
+ 
         Precision: 0.980
+
         Recall: 0.973
+
         F1: 0.976
 This indicates that our model can predict with the accuracy arount 98%.
 We furthermore plot the Receiver operating characteristic (ROC)
 
+![ROC](./figures/ROC.png)
 
+The blue line, representing the prediction probability, lies away from 
+the dash red line showing that our model is a good choice. 
 
 ### Discussion
 
@@ -105,7 +111,11 @@ Dataset to predict the class for patients using their information. From
 the mathematical point of view, this is a smooth and convex optimization 
 problem. Many possible algorithms are available, both deterministic as 
 well as stochastic. In our project, we use the deterministic newton 
-algorithm due to its fast convergence. 
+algorithm with conjugate gradient due to its fast convergence.
+
+In the future work, we intend to use another model besides logistic regression 
+to explore the dataset. More specifically, more general objective functions 
+will be studies instead of logistic function added by a ridge regularizer. 
  
 
 ### References
