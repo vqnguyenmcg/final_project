@@ -4,7 +4,7 @@ Application of Logistic Regression to Predict Patients with Breast Cancer.
 
 | Name | Date |
 |:-------|:---------------|
-|Van Quang Nguyen | Completion date|
+|Van Quang Nguyen | March 25, 2019|
 
 -----
 
@@ -12,7 +12,7 @@ Application of Logistic Regression to Predict Patients with Breast Cancer.
 This repository includes the following:
 
 - Python script for your analysis: pscript.py
-- Results figure/saved file: 
+- Results figure/saved file: Correlation_matrix.png, count_plot.png, ROC.png
 - Dockerfile for your experiment: Dockerfile
 - runtime-instructions in a file named RUNME.md
 
@@ -49,7 +49,16 @@ Features are computed from a digitized image of a fine needle aspirate
 (FNA) of a breast mass. They describe characteristics of the cell 
 nuclei present in the image.
 
+However, when we load the dataset with the built tool in sklearn, 
+we get two numpy arrays: data (containing numeric values of features) 
+and target (containig information on (integer) either 0 or 1). 
+Two other lists: target_names and features_name which are lists of strings.
+
 ### Methods
+
+First, we explore data by counting values of each class:
+
+![matrix](./figures/count_plot.png)
 
 To have the first insight on the correlation among features, we used 
 seaborn and matplotlib libraries, designed for Python language, to 
