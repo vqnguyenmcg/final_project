@@ -60,11 +60,18 @@ First, we explore data by counting values of each class:
 
 ![Classes counts](./figures/count_plot.png)
 
-To have the first insight on the correlation among features, we used 
+To have the insight on the correlation among features, we used 
 seaborn and matplotlib libraries, designed for Python language, to 
-plot the correlation matrix. Some pairplot will then be used to 
-visualize the relation and finally, from these figures, we decided 
-to use the logistic regression model in scikit-learn to build a 
+plot the correlation matrix
+
+![Correlation matrix](./figures/Correlation_matrix.png)
+
+Some pairplots will then be used to 
+visualize the other relations
+
+![Pairplot](./figures/pairplot.png)
+
+We decided to use the logistic regression model in scikit-learn to build a 
 classifier from which users can use to predict their class with 
 their information. 
 
@@ -84,11 +91,10 @@ linear classifier and has been used effectively for long-term
 The performance of the classification is represented in the following 
 table
 
- precision    recall  f1-score   support
-
-           0       0.94      0.97      0.96        67
-
-           1       0.98      0.97      0.97       121
+| | precision | recall | f1-score | support |
+|:|:----------|:-------|:---------|:--------|
+| 0 | 0.94 | 0.97 | 0.96 | 67 |
+| 1 | 0.98 | 0.97 | 0.97 | 121|
 
 ### Discussion
 
