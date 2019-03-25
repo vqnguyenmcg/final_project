@@ -91,6 +91,10 @@ linear classifier and has been used effectively for long-term
 The performance of the classification is represented in the following 
 table
 
+| class | Precision | Recall | f1_score |
+|:-------|:---------------|:------------|
+|Van Quang Nguyen | March 25, 2019|
+
 | | precision | recall | f1-score | support |
 |:|:----------|:-------|:---------|:--------|
 | 0 | 0.94 | 0.97 | 0.96 | 67 |
